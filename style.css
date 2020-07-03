@@ -49,5 +49,23 @@ color: green;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    box-shadow: 10px 10px 40px gray;
 
+}
+.last-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 450px;
+    background-position: left;
+}
+#abcd{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, green,gray);
+    border-image-slice: 1;
+}
+#defg{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
 }
